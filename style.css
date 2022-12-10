@@ -707,6 +707,8 @@ footer .col {
    display: flex;
    align-items: center;
    width: 100%;
+   position: relative;
+   padding-bottom: 90px;
 }
 
 #blog .blog-img{
@@ -753,7 +755,17 @@ footer .col {
 
 #blog .blog-details a::after{
    background-color: #088178;
+}
 
+#blog .blog-box h1{
+   position: absolute;
+   top: -40px;
+   left: 0;
+   font-size: 70px;
+   font-weight: 700;
+   color: #c9cbce;
+   z-index: -9;
+}
 /* About Page */
 
 /* Contact Page */
