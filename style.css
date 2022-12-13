@@ -394,7 +394,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/banner1.webp");
+    background-image: url("img/brown.jpeg");
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -447,7 +447,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/banner1.webp");
+    background-image: url("img/모네4.jpeg");
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -457,11 +457,11 @@ body {
  }  
 
  #banner3 .banner-box2{
-    background-image: url("img/banner1.webp");
+    background-image: url("img/모네2.jpg");
  }
 
  #banner3 .banner-box3{
-    background-image: url("img/banner1.webp");
+    background-image: url("img/모네3.jpeg");
  }
 
 
@@ -472,7 +472,7 @@ body {
  }
 
  #banner3 h3{
-    color: #ec5442;
+    color: rgb(212, 212, 212);
     font-weight: 800;
     font-size: 15px;
  }
@@ -482,7 +482,8 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("img/banner banner.jpeg");
+    background-image: url("img/white.webp");
+    width: 100%;
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #041e42;
@@ -1284,6 +1285,20 @@ footer .col {
    #form-details form {
       width: 100%;
       margin-bottom: 30px;
+   }
+
+   /* Cart Page */
+   #cart-add {
+      flex-direction: column;
+   }
+
+   #coupon {
+      width: 100%;
+   }
+
+   #subtotal{
+      width: 100%;
+      padding: 20px;
    }
 
 }
